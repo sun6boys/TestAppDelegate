@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"这是测试";
+    [self.view addSubview:label];
+    label.frame = CGRectMake(0, 100, 100, 100);
 }
 
 /*
